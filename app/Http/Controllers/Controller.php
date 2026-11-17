@@ -2,12 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-class WelcomeController extends Controller
+abstract class Controller
 {
-    public function index()
-    {
-        return view('welcome-page', ['name' => 'نورة']);
-    }
+    //
 }
